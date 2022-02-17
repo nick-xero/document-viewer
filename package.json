@@ -1,0 +1,16 @@
+{
+  "name": "document-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nick-xero/document-viewer.git",
+  "author": "nicolas.hortaadam <nicolas.hortaadam@xero.com>",
+  "license": "MIT",
+  "private": "false",
+  "engines": {
+    "node": "v14.18.1",
+    "yarn": "1.22.17",
+    "npm": "6.14.15"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
