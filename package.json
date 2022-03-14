@@ -1,16 +1,28 @@
 {
-  "name": "document-viewer",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:nick-xero/document-viewer.git",
-  "author": "nicolas.hortaadam <nicolas.hortaadam@xero.com>",
   "license": "MIT",
-  "private": "false",
   "engines": {
     "node": "v14.18.1",
     "yarn": "1.22.17",
     "npm": "6.14.15"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "lint":"npx eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
 }
